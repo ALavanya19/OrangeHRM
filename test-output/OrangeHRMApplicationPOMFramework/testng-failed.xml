@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRMApplicationPOMFramework]">
+  <test name="LoginPageTest">
+    <classes>
+      <class name="com.OrangeHRMTestCases.DashboardPageTest"/>
+    </classes>
+  </test> <!-- LoginPageTest -->
+  <test name="LoginPageTest(failed)">
+    <classes>
+      <class name="com.OrangeHRMTestCases.DashboardPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="welcomeAdminAbout"/>
+          <include name="LoginTest"/>
+          <include name="dashBoardPageTitleTest"/>
+          <include name="empDisbySubunitTest"/>
+          <include name="legendTest"/>
+          <include name="timeSheetsTest"/>
+          <include name="leaveListTest"/>
+          <include name="dashboardOhrmLogoTest"/>
+          <include name="welcomeAdminChangePassword"/>
+          <include name="headerMenuTest"/>
+          <include name="assignLeaveTest"/>
+          <include name="pendingLeaveRequest"/>
+          <include name="closeTest"/>
+        </methods>
+      </class> <!-- com.OrangeHRMTestCases.DashboardPageTest -->
+    </classes>
+  </test> <!-- LoginPageTest(failed) -->
+</suite> <!-- Failed suite [OrangeHRMApplicationPOMFramework] -->

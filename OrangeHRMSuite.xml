@@ -1,0 +1,7 @@
+<suite name="OrangeHRMApplicationPOMFramework">
+<test name="LoginPageTest">
+<classes>
+<class name="com.OrangeHRMTestCases.DashboardPageTest"/>
+</classes>
+</test>
+</suite>
